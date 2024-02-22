@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <header class="header container-lg">
+      <div class="header__links">
+        <a href="/" class="header__logo">
+          <img src="images/logo-dark.svg" alt="Logo">
+          <h3 class="header__logo-name">Rangi.ru</h3>
+        </a>
+
+        <a href="#" class="header__directions yellow-btn" aria-label="Ссылка на страницу всех напралений">
+          <img src="images/burger.svg" alt="Все направления">
+          <span class="header__directons-text">Все направления</span>
+        </a>
+
+        <ul class="header__nav">
+          <li><a href="#" class="header__link">О сервисе</a></li>
+          <li><a href="#" class="header__link">FAQ</a></li>
+          <li><a href="#" class="header__link">Поддержка</a></li>
+          <li><a href="#" class="header__link">Сотрудничество</a></li>
+          <li><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+      </div>
+
+      <form action="#" method="GET" class="header__search-form">
+        <input type="search" name="search" placeholder="Поиск..." hidden class="header__seachfield">
+        <button type="submit" class="header__search-btn">
+          <img src="images/search.svg" alt="Поиск">
+        </button>
+      </form>
+    </header>
+
+    <main class="wrapper">
+      <section id="hero" class="hero container-lg">
+        <h1 class="hero__title">Мы занимаемся
+          рейтингом проверенных
+          компаний</h1>
+
+        <p class="hero__description">Инструмент для выбора проверенных компаний в интернете,
+          в разных направлениях бизнеса.</p>
+
+        <a href="#directions" class="hero__link yellow-btn">Выбрать направление</a>
+      </section>
+
+      <section id="merits" class="merits">
+        <ul class="merits__list">
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/trophy.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">5 лет непрерывной
+               работы</h4>
+              <p class="merits__description">Рейтинги публикуются ежегодно, 
+                начиная с 2017 года.</p>
+            </div>
+          </li>
+
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/star.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">№1 по популярности
+               в сегменте</h4>
+              <p class="merits__description">Самая высокая посещаемость среди
+               аналогичных площадок.</p>
+            </div>
+          </li>
+
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/clipboard.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">25 основных рейтинга
+               и 1 242 локальных</h4>
+              <p class="merits__description">Детальные срезы по тематикам, типам проектов,
+               бизнесу клиентов и географии.</p>
+            </div>
+          </li>
+
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/data.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">Понятная и прозрачная
+               методология</h4>
+              <p class="merits__description">Все рейтинги строятся на реальных
+               данных, которые вносят сами компании.</p>
+            </div>
+          </li>
+
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/homepage.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">Независимость и
+               не аффилированность</h4>
+              <p class="merits__description">Рейтинговый проект полностью
+               независимый в интернете</p>
+            </div>
+          </li>
+
+          <li class="merits__item">
+            <div class="merits__icon">
+              <img src="images/merits/pin.svg" alt="#">
+            </div>
+  
+            <div class="merits__texts">
+              <h4 class="merits__title">Самый большой
+               региональный охват</h4>
+              <p class="merits__description">Участвуют компании из 101 города 5 стран.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="directions" class="directions container-lg">
+        <h2 class="directions__title">Популярные направления</h2>
+
+        <hr class="directions__divider"/>
+
+        <ul class="directions__lists">
+          <li>
+            <div class="directions__info">
+              <div  class="directions__icon">
+                <img src="images/directions/shopping-bag.svg" alt="Торговля">
+              </div>
+              <h4 class="directions__name">Торговля</h4>
+            </div>
+
+            <ul class="directions__list">
+              <li><button class="directions__item">Агрегаторы</button></li>
+              <li><button class="directions__item">Бытовая техника</button></li>
+              <li><button class="directions__item">Двери</button></li>
+              <li><button class="directions__item">Дрогери</button></li>
+              <li><button class="directions__item">Зоотовары</button></li>
+              <li><button class="directions__item">Канцтовары</button></li>
+              <li><button class="directions__item">Керамическая плитка</button></li>
+              <li><button class="directions__item">Климатическая техника</button></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="directions__info">
+              <div  class="directions__icon">
+                <img src="images/directions/checklist.svg" alt="Услуги">
+              </div>
+              <h4 class="directions__name">Услуги</h4>
+            </div>
+
+            <ul class="directions__list">
+              <li><button class="directions__item">Грузоперевозки и логистика</button></li>
+              <li><button class="directions__item">Digital маркетинг</button></li>
+              <li><button class="directions__item">Маркетинг и реклама</button></li>
+              <li><button class="directions__item">Недвижимость</button></li>
+              <li><button class="directions__item">Печать и самопроизводство</button></li>
+              <li><button class="directions__item">Ремонт бытовой техники</button></li>
+              <li><button class="directions__item">Ремонт автомобилей</button></li>
+              <li><button class="directions__item">Юристпруденция</button></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="directions__info">
+              <div  class="directions__icon">
+                <img src="images/directions/stethoscope.svg" alt="Здоровье">
+              </div>
+              <h4 class="directions__name">Здоровье</h4>
+            </div>
+
+            <ul class="directions__list">
+              <li><button class="directions__item">Фармацевтика</button></li>
+              <li><button class="directions__item">Диетическое питание и фитнес</button></li>
+              <li><button class="directions__item">Женское здоровье</button></li>
+              <li><button class="directions__item">Мужское здоровье</button></li>
+              <li><button class="directions__item">Стоматологические услуги</button></li>
+              <li><button class="directions__item">Здоровье детей</button></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="directions__info">
+              <div  class="directions__icon">
+                <img src="images/directions/location.svg" alt="Путешествия и туризм">
+              </div>
+              <h4 class="directions__name">Путешествия и туризм</h4>
+            </div>
+
+            <ul class="directions__list">
+              <li><button class="directions__item">Авиаперевозки</button></li>
+              <li><button class="directions__item">Гостиничный бизнес</button></li>
+              <li><button class="directions__item">Наземный транспорт</button></li>
+              <li><button class="directions__item">Прокат автомобилей</button></li>
+              <li><button class="directions__item">Транспорт и экскурсии</button></li>
+              <li><button class="directions__item">Туристические компании</button></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="directions__info">
+              <div  class="directions__icon">
+                <img src="images/directions/picture.svg" alt="Искусство">
+              </div>
+              <h4 class="directions__name">Искусство</h4>
+            </div>
+
+            <ul class="directions__list">
+              <li><button class="directions__item">Анимация и комиксы</button></li>
+              <li><button class="directions__item">Визуальное искусство и дизайн</button></li>
+              <li><button class="directions__item">Исполнительное искусство</button></li>
+              <li><button class="directions__item">Книги и литература</button></li>
+              <li><button class="directions__item">Музыка</button></li>
+              <li><button class="directions__item">Искусство и развлечения</button></li>
+              <li><button class="directions__item">Юмор</button></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="task" class="task container-lg">
+        <h2 class="task__title">Главная задача Rangi.ru</h2>
+        <p class="task__description">помочь Вам найти самое выгодное, удобное и качественное предложение. Не верите? Просто попробуйте наш сервис и не забудьте оставить отзыв о компании!</p>
+      </section>
+
+      <section id="rating" class="rating">
+        <div class="rating__bg">
+          <div class="rating__text">
+            <h2 class="rating__title">Рейтинг надежных
+              исполнителей</h2>
+
+            <p class="rating__description">Rangi.ru – каталог сервисных центров, объединяющий десятки тысяч компаний во всех городах России.
+              На нашем сайте Вы сможете найти ближайший к дому или офису сервисный центр, узнать время его работы и контакты, просмотреть отзывы и комментарии, а также сориентироваться по стоимости услуг.
+              
+              Наши каталоги обновляются ежедневно, а все отзывы проходят строгую модерацию, чтобы предотвратить «накрутки» рейтинга и недобросовестную конкуренцию.
+              
+              Каталог Rangi.ru разработан специально для жителей городов, в которых так сложно найти порядочный сервисный центр, работающий с нужным типом и брендом оборудования. С нашей помощью Вы сохраните не только деньги, но и драгоценное время – выберите вид техники, нуждающейся в осмотре, тип ремонта, укажите свое местоположение, а наш сайт покажет лучшие сервисные центры вблизи Вас.</p>
+          </div>
+        </div>
+        <img src="images/laptop.png" alt="Рейтинг" class="rating__image"/>
+      </section>
+
+      <section id="about-rating" class="about-rating container-lg">
+        <div class="about-rating__text">
+          <h2 class="about-rating__title">Как устроен наш рейтинг</h2>
+          <p class="about-rating__description">Сервис отзывов и рекомендаций, который помогает людям искать,
+            находить и выбирать лучшие компании.</p>
+        </div>
+
+        <ul class="about-rating__list">
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">01</span>
+              <h4 class="about-rating__subtitle">Объективность</h4>
+            </div>
+            
+            <p class="about-rating__description">Наш рейтинг основан на объективных критериях,
+              таких как финансовая стабильность, репутация,
+              инновационность и др. Мы не принимаем
+              во внимание личные предпочтения или
+              предвзятость.</p>
+          </li>
+
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">02</span>
+              <h4 class="about-rating__subtitle">Надежность</h4>
+            </div>
+            
+            <p class="about-rating__description">Мы используем надежные и проверенные
+              источники информации для составления рейтинга.
+              Это позволяет пользователям быть уверенными
+              в достоверности предоставленных данных.</p>
+          </li>
+
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">03</span>
+              <h4 class="about-rating__subtitle">Удобство</h4>
+            </div>
+            
+            <p class="about-rating__description">Наш рейтинг представлен в удобном и понятном
+              формате, который позволяет легко сравнить
+              компании по различным параметрам. Это помогает
+              пользователям принимать информированные
+              решения при выборе компании.</p>
+          </li>
+
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">04</span>
+              <h4 class="about-rating__subtitle">Информативность</h4>
+            </div>
+            
+            <p class="about-rating__description">В нашем рейтинге мы предоставляем подробную
+              информацию о каждой компании, включая
+              историю, условия работы, отзывы клиентов
+              и т.д. Это помогает пользователям получить
+              полное представление о компании перед
+              принятием решения.</p>
+          </li>
+
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">05</span>
+              <h4 class="about-rating__subtitle">Независимость</h4>
+            </div>
+            
+            <p class="about-rating__description">Мы не связаны с какой-либо компанией или
+              отраслью, поэтому наш рейтинг является
+              независимым и непредвзятым. Мы стремимся
+              предоставить объективную оценку каждой
+              компании и помочь пользователям сделать
+              правильный выбор.</p>
+          </li>
+
+          <li class="about-rating__item">
+            <div class="about-rating__item-name">
+              <span class="about-rating__number">06</span>
+              <h4 class="about-rating__subtitle">Обратная связь</h4>
+            </div>
+            
+            <p class="about-rating__description">Мы принимаем во внимание мнение
+              пользователей и учитываем их отзывы при
+              составлении рейтинга. Это позволяет нам
+              постоянно улучшать качество предоставляемой
+              информации и удовлетворять потребности
+              наших пользователей.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="cooperation" class="cooperation">
+        <h2 class="cooperation__title">В нашем рейтинги любые сайты — от малых
+          предприятий до глобальных корпораций</h2>
+        <span class="cooperation__subtitle">Хотите добавить свой сайт? Отправьте заявку.</span>
+
+        <a href="#" class="cooperation__link yellow-btn">Подробнее о сотрудничестве</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__top-inner container-lg">
+          <div aria-label="Блок с информацией о сайте">
+            <a href="/" class="footer__logo">
+              <img src="images/logo-light.svg" alt="Logo">
+              <h3 class="footer__logo-name">Rangi.ru</h3>
+            </a>
+
+            <p class="footer__info-text">
+              Сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями ч. 2 ст. 437 Гражданского кодекса РФ. Чтобы получить подробную информацию о стоимости услуг, обращайтесь, пожалуйста, к администраторам клиник. «Бест Клиник» - частная клиника и платная поликлиника в Москве, больница стационар.
+            </p>
+          </div>
+
+          <div class="footer__nav">
+            <ul class="footer__top-header">
+              <li><b class="footer__label">Сервисе</b></li>
+              <li><b class="footer__label">Направления</b></li>
+              <li><b class="footer__label"></b></li>
+              <li><b class="footer__label">Поддержка</b></li>
+            </ul>
+
+            <hr class="footer__divider"/>
+
+            <ul class="footer__top-body">
+              <li>
+                <ul>
+                  <li><a href="#" class="footer__link">О сервисе</a></li>
+                  <li><a href="#" class="footer__link">Вопросы и ответы</a></li>
+                  <li><a href="#" class="footer__link">Контакты</a></li>
+                  <li><a href="#" class="footer__link">Партнеры</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="#" class="footer__link">Азартные игры</a></li>
+                  <li><a href="#" class="footer__link">Потребительские услуги</a></li>
+                  <li><a href="#" class="footer__link">Виды спорта</a></li>
+                  <li><a href="#" class="footer__link">Государство и право</a></li>
+                  <li><a href="#" class="footer__link">Дом и сад</a></li>
+                  <li><a href="#" class="footer__link">Еда и напитки</a></li>
+                  <li><a href="#" class="footer__link">Здоровье</a></li>
+                  <li><a href="#" class="footer__link">Игры</a></li>
+                  <li><a href="#" class="footer__link">Искусство и развлечения</a></li>
+                  <li><a href="#" class="footer__link">Компьютеры, электроника</a></li>
+                  <li><a href="#" class="footer__link">Наука и образование</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="#" class="footer__link">Новости и блоги</a></li>
+                  <li><a href="#" class="footer__link">Образ жизни</a></li>
+                  <li><a href="#" class="footer__link">Питомцы и животные</a></li>
+                  <li><a href="#" class="footer__link">Путешествия и туризм</a></li>
+                  <li><a href="#" class="footer__link">Работа и карьера</a></li>
+                  <li><a href="#" class="footer__link">Сообщество и общество</a></li>
+                  <li><a href="#" class="footer__link">Справочные материалы</a></li>
+                  <li><a href="#" class="footer__link">Транспортные средства</a></li>
+                  <li><a href="#" class="footer__link">Тяжелая промышленность</a></li>
+                  <li><a href="#" class="footer__link">Финансы</a></li>
+                  <li><a href="#" class="footer__link">Хобби и досуг</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <div class="footer__support">
+                  <div class="footer__request">
+                    <a href="#" class="footer__mail footer__link">info@rangi.ru</a>
+                    <a href="#" class="footer__request-btn yellow-btn">Отправить запрос</a>
+                  </div>
+                  
+                  <div class="footer__social-medias">
+                    <span><b class="footer__label">Соц сети и мессенджеры</b></span>
+                    <ul class="footer__soc-icons">
+                      <li>
+                        <a href="#" class="footer__social-media">
+                          <img src="images/social-medias/whatsapp.svg" alt="WhatsApp"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer__social-media">
+                          <img src="images/social-medias/vk.svg" alt="VK"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer__social-media">
+                          <img src="images/social-medias/telegram.svg" alt="Telegram"/>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-inner container-lg">
+          <a href="#" class="footer__bottom-help-text">© 2009–2023 Рейтинг сайтов «Rangi».    Политика конфиденциальности</a>
+
+          <span class="footer__advance-media">
+            <span class="footer__bottom-help-text">Сайт построили в</span>
+            <a href="https://advanc-media.ru/" target="_blank"><img src="images/advance-media.svg" alt="Advance Media"></a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="js/search.js"></script>
+</html>
